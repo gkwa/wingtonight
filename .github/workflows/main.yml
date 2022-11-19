@@ -31,3 +31,4 @@ jobs:
     - name: Push
       run: |
         docker image push docker.io/${{ secrets.DOCKER_USERNAME }}/wingtonight:github
+
